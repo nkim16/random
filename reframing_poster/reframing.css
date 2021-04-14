@@ -1,0 +1,40 @@
+
+.bg_img{
+  width: 1800px;
+  height: auto;
+  background-image: url('bg_og.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-y: scroll;
+  z-index: 1;
+  position: relative;
+}
+
+body{
+  width: 100%;
+  height: auto;
+/*  background-image: url('bg.png');*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-y: scroll;
+  z-index: 1;
+  position: relative;
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 40px;
+  font-size: 1.5em;
+  color: white;
+  -webkit-text-stroke: 0.5px black;
+  font-family: swear-display-cilati, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
