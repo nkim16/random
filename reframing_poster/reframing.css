@@ -27,6 +27,20 @@ body{
 background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 
+.img01{
+/*  background-position: center center;
+  background-repeat: no-repeat;*/
+  z-index: 2;
+  position: absolute;
+  top:2180px;
+  left:1200px;
+/*   height: 200px;*/
+width:17%;
+border: 5px solid white;
+
+
+}
+
 h1{
   text-align: center;
   text-transform: uppercase;
@@ -34,7 +48,7 @@ h1{
   font-size: 1.5em;
   color: white;
   -webkit-text-stroke: 0.5px black;
-  font-family: swear-display-cilati, sans-serif;
+/*  font-family: swear-display-cilati, sans-serif;
   font-weight: 800;
   font-style: normal;
-}
+}*/
