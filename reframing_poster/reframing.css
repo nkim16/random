@@ -32,14 +32,58 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
   background-repeat: no-repeat;*/
   z-index: 2;
   position: absolute;
-  top:2180px;
-  left:1200px;
+  top:180px;
+  left:200px;
 /*   height: 200px;*/
 width:17%;
-border: 5px solid white;
+/*border: 5px solid white;*/
 
 
 }
+
+.img02{
+/*  background-position: center center;
+  background-repeat: no-repeat;*/
+  z-index: 2;
+  position: absolute;
+  top:880px;
+  left:1000px;
+/*   height: 200px;*/
+width:8%;
+/*border: 5px solid white;*/
+ transform: scaleX(-1)
+
+}
+
+.img03{
+/*  background-position: center center;
+  background-repeat: no-repeat;*/
+  z-index: 2;
+  position: absolute;
+  top:2580px;
+  left:900px;
+/*   height: 200px;*/
+width:17%;
+/*border: 5px solid white;*/
+ transform: scaleX(-1)
+
+}
+
+.img04{
+/*  background-position: center center;
+  background-repeat: no-repeat;*/
+  z-index: 2;
+  position: absolute;
+  top:1480px;
+  left:400px;
+/*   height: 200px;*/
+width:13%;
+/*border: 5px solid white;*/
+
+
+}
+
+
 
 h1{
   text-align: center;
