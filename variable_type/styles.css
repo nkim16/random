@@ -448,11 +448,13 @@ letter-spacing: 0.1em;
   width: 100vw;
   margin: auto;
   word-wrap: break-word;
+  z-index: -10;
 }
 a {
   color: #fbff03;
   line-height: 0.3em;
   font-size: 1.3em;
+  z-index: -10;
 }
 
 a:visited {
@@ -466,4 +468,53 @@ a:hover {
 a:active {
   color: #fbff03;
 }
+
+img{
+  z-index: 100;
+
+}
+.horizontally {
+ height: 500px; 
+ overflow: hidden;
+ position: relative;
+ z-index: 100;
+}
+.horizontally .inner {
+ position: absolute;
+
+ width: 100%;
+ height: 100%;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(40%);
+ -webkit-transform:translateX(40%); 
+ transform:translateX(40%);
+ /* Apply animation to this element */  
+ -moz-animation: horizontally 5s linear infinite alternate;
+ -webkit-animation: horizontally 5s linear infinite alternate;
+ animation: horizontally 5s linear infinite alternate;
+}
+/* Move it (define the animation) */
+@-moz-keyframes horizontally {
+ 0%   { -moz-transform: translateX(40%); }
+ 100% { -moz-transform: translateX(-40%); }
+}
+@-webkit-keyframes horizontally {
+ 0%   { -webkit-transform: translateX(40%); }
+ 100% { -webkit-transform: translateX(-40%); }
+}
+@keyframes horizontally {
+ 0%   { 
+ -moz-transform: translateX(40%); /* Browser bug fix */
+ -webkit-transform: translateX(40%); /* Browser bug fix */
+ transform: translateX(40%);    
+ }
+ 100% { 
+ -moz-transform: translateX(-40%); /* Browser bug fix */
+ -webkit-transform: translateX(-40%); /* Browser bug fix */
+ transform: translateX(-40%); 
+ }
+}
+
+
 
